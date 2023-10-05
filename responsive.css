@@ -1,0 +1,35 @@
+@media (min-width: 770px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body
+    {
+        /* background-color: red; */
+    }
+    nav{
+        display: flex;
+        height: 100%;
+        background-color: aqua;
+        justify-content: center;
+        padding: 10px;
+        align-items: center;
+    }
+    .logoname{
+        right: 21rem;
+        position: relative;
+        font-size: 2vw;
+        font-weight: 600;
+        font-family: 'Tomorrow', sans-serif;
+        
+    }
+    
+    nav p{
+        font-size: 1vw;
+        padding-right: 38px;
+        font-family: 'Young Serif', serif;
+    }
+}
